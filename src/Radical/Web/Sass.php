@@ -36,7 +36,6 @@ class Sass {
 				'cache' => false,
 				'syntax' => $ext,
 				'debug' => false,
-				//'load_path_functions' => array('loadCallback'),
 				'load_paths' => array($sass_path),
 				'functions' => self::getFunctions(array('Compass','Own')),
 				'extensions' => array('Compass','Own')
