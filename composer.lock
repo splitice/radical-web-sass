@@ -1,0 +1,347 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "a34e570ee5f15fc5d78ccb006a5d4abf",
+    "packages": [
+        {
+            "name": "richthegeek/phpsass",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/richthegeek/phpsass.git",
+                "reference": "04817e0366f863f8238c2d7c9b34816eed4ad4cf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/richthegeek/phpsass/zipball/04817e0366f863f8238c2d7c9b34816eed4ad4cf",
+                "reference": "04817e0366f863f8238c2d7c9b34816eed4ad4cf",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "script/",
+                    "renderers/",
+                    "tree/",
+                    "SassException.php",
+                    "SassFile.php",
+                    "SassParser.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Richard Lyon",
+                    "homepage": "https://github.com/richthegeek"
+                },
+                {
+                    "name": "Sebastian Siemssen",
+                    "homepage": "https://twitter.com/thefubhy"
+                },
+                {
+                    "name": "Steve Jones",
+                    "homepage": "https://github.com/darthsteven"
+                },
+                {
+                    "name": "Sam Richard",
+                    "homepage": "https://github.com/snugug"
+                }
+            ],
+            "description": "PHPSass is a PHP compiler for SASS, a popular CSS pre-processor language.",
+            "homepage": "http://phpsass.com",
+            "time": "2013-11-18 13:53:34"
+        },
+        {
+            "name": "splitice/radical-basic",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/splitice/radical-basic.git",
+                "reference": "71fba12fc7486407b00f9d1ce06c8758a5c3f685"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/splitice/radical-basic/zipball/71fba12fc7486407b00f9d1ce06c8758a5c3f685",
+                "reference": "71fba12fc7486407b00f9d1ce06c8758a5c3f685",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4",
+                "splitice/radical-common": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Radical": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD"
+            ],
+            "description": "Basic radical-php functionality",
+            "keywords": [
+                "radical-php"
+            ],
+            "time": "2013-12-28 08:06:56"
+        },
+        {
+            "name": "splitice/radical-common",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/splitice/radical-common.git",
+                "reference": "190a5cffabaed51378305979433027861cb5ebe1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/splitice/radical-common/zipball/190a5cffabaed51378305979433027861cb5ebe1",
+                "reference": "190a5cffabaed51378305979433027861cb5ebe1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4",
+                "symfony/filesystem": "2.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Radical": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "radical-common",
+            "keywords": [
+                "radical-php"
+            ],
+            "time": "2013-12-29 03:16:55"
+        },
+        {
+            "name": "splitice/radical-file",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/splitice/radical-file.git",
+                "reference": "c75a7b1fd7f8cf3c14102d89c72baf1c9324216e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/splitice/radical-file/zipball/c75a7b1fd7f8cf3c14102d89c72baf1c9324216e",
+                "reference": "c75a7b1fd7f8cf3c14102d89c72baf1c9324216e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4",
+                "splitice/radical-common": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Radical": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "radical-php",
+            "keywords": [
+                "radical-php"
+            ],
+            "time": "2013-12-19 10:25:24"
+        },
+        {
+            "name": "splitice/radical-html",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/splitice/radical-html.git",
+                "reference": "9f3e008ca1797624bc01e4723715a26d9c86ffaf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/splitice/radical-html/zipball/9f3e008ca1797624bc01e4723715a26d9c86ffaf",
+                "reference": "9f3e008ca1797624bc01e4723715a26d9c86ffaf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Radical": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "radical-html",
+            "keywords": [
+                "radical-php"
+            ],
+            "time": "2013-12-19 08:08:16"
+        },
+        {
+            "name": "splitice/radical-net",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/splitice/radical-net.git",
+                "reference": "7bd66f274aada53e56a0b9b05dc83ad3d705e334"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/splitice/radical-net/zipball/7bd66f274aada53e56a0b9b05dc83ad3d705e334",
+                "reference": "7bd66f274aada53e56a0b9b05dc83ad3d705e334",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4",
+                "splitice/radical-basic": "dev-master",
+                "splitice/radical-common": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Radical": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "radical-net",
+            "keywords": [
+                "radical-php"
+            ],
+            "time": "2013-12-24 07:34:04"
+        },
+        {
+            "name": "splitice/radical-web",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/splitice/radical-web.git",
+                "reference": "6ebedcd4005e673bf06cecee4aebce4c4ec6892d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/splitice/radical-web/zipball/6ebedcd4005e673bf06cecee4aebce4c4ec6892d",
+                "reference": "6ebedcd4005e673bf06cecee4aebce4c4ec6892d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4",
+                "splitice/radical-basic": "dev-master",
+                "splitice/radical-common": "dev-master",
+                "splitice/radical-file": "dev-master",
+                "splitice/radical-html": "dev-master",
+                "splitice/radical-net": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Radical": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "radical-web",
+            "keywords": [
+                "radical-php"
+            ],
+            "time": "2013-12-29 03:17:12"
+        },
+        {
+            "name": "splitice/radical-web-resources",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/splitice/radical-web-resources.git",
+                "reference": "756d9b8bbd1a0cf8002c94d4a2125c62e7552c9b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/splitice/radical-web-resources/zipball/756d9b8bbd1a0cf8002c94d4a2125c62e7552c9b",
+                "reference": "756d9b8bbd1a0cf8002c94d4a2125c62e7552c9b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4",
+                "splitice/radical-web": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Radical": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "radical-php",
+            "keywords": [
+                "radical-php"
+            ],
+            "time": "2013-12-29 02:08:21"
+        },
+        {
+            "name": "symfony/filesystem",
+            "version": "v2.4.0",
+            "target-dir": "Symfony/Component/Filesystem",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Filesystem.git",
+                "reference": "79acd777762e81d0f3414ca25a602deeeb48240d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Filesystem/zipball/79acd777762e81d0f3414ca25a602deeeb48240d",
+                "reference": "79acd777762e81d0f3414ca25a602deeeb48240d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Filesystem\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Filesystem Component",
+            "homepage": "http://symfony.com",
+            "time": "2013-11-16 15:13:54"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "splitice/radical-web-resources": 20
+    },
+    "platform": {
+        "php": ">=5.4"
+    },
+    "platform-dev": [
+
+    ]
+}

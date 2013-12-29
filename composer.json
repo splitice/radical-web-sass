@@ -11,6 +11,9 @@
 	"type" : "library",
 	"description" : "sass support",
 	"require" : {
-		"php" : ">=5.4"
-	}
+		"php" : ">=5.4",
+		"splitice/radical-web-resources" : "dev-master",
+		"richthegeek/phpsass" : "*"
+	},
+	"minimum-stability" : "dev"
 }
